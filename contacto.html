@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Suscribete a las nuevas novedades!</h1>
+    </header>
+    <main>
+      <section>
+        <form action="">
+          <fieldset>
+            <br />
+            <legend>Datos basicos:</legend>
+            Nombre(s):
+            <input
+              type="text"
+              placeholder="ej:Fernando Alexis"
+              required
+            /><br /><br />
+            Correo electrónico:
+            <input type="email" placeholder="ej:email@gmail.com" /><br /><br />
+            Telefono:
+            <input type="tel" placeholder="ej:5546352312" /><br /><br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Comentarios</legend>
+            <label for="comentarios">Escribe tus comentarios aquí:</label>
+            <br />
+            <textarea id="comentarios" rows="8" cols="50" required></textarea>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Terminos y condiciones</legend>
+            <input type="checkbox" required /><span
+              >Acepto que me envíen notificaciones a mi correo electronico y el
+              uso de mis datos.</span
+            >
+          </fieldset>
+          <br />
+          <button type="submit">Enviar!</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
