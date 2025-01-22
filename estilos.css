@@ -47,7 +47,9 @@ section h2,
 h3 {
   text-align: center;
 }
-
+ol {
+  margin-left: 15px;
+}
 footer {
   background-color: var(--color-fondo);
   color: var(--text-color);
