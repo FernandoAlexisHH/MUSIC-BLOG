@@ -1,5 +1,17 @@
+/*Resetear estilos por default*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*Declaramos variables en el root*/
+  --color-fondo: #1a1a1d;
+  --color-componente: #3b1c32;
+  --text-color: #fff;
+}
 body {
-  background-color: #1a1a1d;
+  background-color: var(--color-fondo);
   color: #fff;
 }
 
@@ -17,7 +29,7 @@ img {
 }
 
 a {
-  color: #fff;
+  color: var(--text-color);
 }
 p {
   font-family: "Rubik", serif;
@@ -26,7 +38,7 @@ p {
   font-style: normal;
 }
 section {
-  background-color: #3b1c32;
+  background-color: var(--color-componente);
   max-width: 600px;
   margin: 6px auto;
   padding: 4px 0 4px 4px;
@@ -37,8 +49,8 @@ h3 {
 }
 
 footer {
-  background-color: #1a1a1d;
-  color: #fff;
+  background-color: var(--color-fondo);
+  color: var(--text-color);
   text-align: center;
   padding: 10px;
 }
